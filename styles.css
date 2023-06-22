@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  height: 100vh;
+  /* min-height: 60% ; */
+  width: 80%;
+  min-width: 200px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  overflow-y: auto;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0 1.5em;
+  background-color: rgb(5, 233, 157);
+  border: 1px solid #13afc4;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+
+button:hover {
+  background-color: rgb(5, 255, 80);
+  font-size: 1.6rem;
+  padding: 0 1.6em;
+}
+
+
+#increamentButton {
+  font-size: 1.5rem;
+  padding: 0 1.5em;
+  background-color: rgb(240, 131, 231);
+  border: 1px solid #bb35bb;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+#increamentButton:hover {
+  background-color: rgb(255, 0, 255);
+  font-size: 1.6rem;
+  padding: 0 1.6em;
+}
